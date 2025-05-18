@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "food-classifier-app/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/food-classifier-app/$1" }
+  ]
+}
