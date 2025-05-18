@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "Food image classification web application",
   "scripts": {
-    "build": "echo 'No build step required'"
+    "build": "npx mkdirp public && npx cpy index.html public/ && npx cpy \"food-classifier-app/**/*\" public/food-classifier-app/ && npx cpy \"model/**/*\" public/model/"
   },
   "engines": {
     "node": ">=14.x"
+  },
+  "dependencies": {
+    "mkdirp": "^1.0.4",
+    "cpy-cli": "^4.2.0"
   }
 }
