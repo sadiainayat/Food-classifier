@@ -1,0 +1,11 @@
+{
+  "name": "food-classifier",
+  "version": "1.0.0",
+  "description": "Food image classification web application",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
