@@ -2,6 +2,8 @@
 
 A web application that classifies food images into different categories.
 
+https://food-classifier-two.vercel.app/
+
 ## Overview
 
 This project consists of two main components:
